@@ -1,0 +1,27 @@
+:: Disable command showing in the result
+@echo off
+
+:: Prompt the user to enter their birth year and store it in the variable 'birthyear'
+set /p birthyear= Enter your birth year: 
+
+:: Calculate the age by subtracting the birth year from the current year
+:: %date:~10,4% extracts the four-digit year from the system date
+set /a age=%date:~10,4% - %birthyear% 
+
+:: Display the calculated age
+echo Age: %age%
+
+:: Display the full current system date
+echo %date%
+
+:: Extract and display the month from the system date (starting at position 4 with a length of 2)
+echo %date:~4,2%
+
+:: Display the full current system date again
+echo %date%
+
+:: Extract and display the day from the system date (starting at position 7 with a length of 2)
+echo %date:~7,2%
+
+:: Pause execution until the user presses a key
+pause

@@ -1,0 +1,14 @@
+@echo off
+:: Disable command showing in the result
+
+echo Username: %username%
+:: Display the current username
+
+echo Windows Version: 
+:: Display the version of Windows
+
+ver
+:: show the Windows version
+
+pause
+:: Pause the script execution until the user presses a key

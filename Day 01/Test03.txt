@@ -1,0 +1,11 @@
+:: Disable command showing in the result
+@echo off
+
+:: Display the current system date and prompt the user to change it
+date
+
+:: Display the current system time and prompt the user to change it
+time
+
+:: Pause execution until the user presses a key
+pause
