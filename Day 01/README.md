@@ -61,6 +61,7 @@ Windows Version:
 Microsoft Windows [Version 10.0.19045.4170]
 Press any key to continue . . .
 ```
+<img width="959" alt="Output2" src="https://github.com/user-attachments/assets/ace56dff-99a9-459e-82f5-ad4304d3760b" />
 
 ---
 
@@ -83,6 +84,8 @@ time
 pause
 :: Pause execution until the user presses a key
 ```
+<img width="959" alt="Output3" src="https://github.com/user-attachments/assets/645691e1-ffd4-49b6-ba5e-4d10fd37627d" />
+
 ---
 
 ## Notes
