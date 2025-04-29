@@ -32,7 +32,7 @@ cd ..
 
 ---
 
-## Windows Script 1: User and Version Info
+## Windows Script 2: User and Version Info
 
 This batch script displays the current user and Windows version.
 
@@ -65,7 +65,7 @@ Press any key to continue . . .
 
 ---
 
-## Windows Script 2: Date and Time Settings
+## Windows Script 3: Date and Time Settings
 
 This script displays the system date and time and prompts the user to optionally change them.
 
