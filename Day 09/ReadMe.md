@@ -96,3 +96,6 @@ Make the script executable and run it:
 chmod +x Exercise.sh
 ./Exercise.sh
 ```
+---
+## Shell Outputs
+<img width="959" alt="output" src="https://github.com/user-attachments/assets/ee354b98-290e-4456-a4f4-a7de5e34aaed" />
