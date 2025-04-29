@@ -130,18 +130,10 @@ done
 ## 🚀 How to Run
 
 ```bash
-chmod +x loop_patterns.sh
-./loop_patterns.sh
+chmod +x Exercise.sh
+./Exercise.sh
 ```
 
 ---
-
-## 🧑‍💻 Author
-
-Your Name
-
----
-
-## 📝 License
-
-MIT License
+## Shell Outputs
+<img width="959" alt="output" src="https://github.com/user-attachments/assets/514e1c0d-a9a6-49f2-89be-842874735074" />
