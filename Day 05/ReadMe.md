@@ -79,5 +79,11 @@ sort -t',' -k4,4r Day5.csv | sort -t',' -k2,2
 ---
 
 ## Output Example
+---
+<img width="959" alt="output1" src="https://github.com/user-attachments/assets/e8197372-439b-4196-944f-e9798fc406e7" />
+<img width="959" alt="output2" src="https://github.com/user-attachments/assets/d66dabf8-7fc2-4d2b-ab02-27d6bd336060" />
+<img width="959" alt="output3" src="https://github.com/user-attachments/assets/63c6be65-a591-450e-833b-119321ff0d9b" />
+<img width="959" alt="output4" src="https://github.com/user-attachments/assets/5fd54289-80af-4aef-8fb5-9b29b2a19c67" />
+<img width="959" alt="output5" src="https://github.com/user-attachments/assets/221b2055-2f84-4d0e-a388-a30eb269e065" />
 
-```
+---
