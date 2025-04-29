@@ -56,10 +56,17 @@ The script uses pause to keep the console window open until the user presses a k
 Example Output:
 
 Mon Apr 28 2025
+
 Month: 04
+
 Day: 28
+
 Year: 2025
+
 Weekday: Mon
+
 Press any key to continue . . .
 
 ---
+
+<img width="959" alt="Output1" src="https://github.com/user-attachments/assets/da429bc5-20aa-41c8-9f26-8cd60d386ad1" />
