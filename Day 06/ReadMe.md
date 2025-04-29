@@ -124,3 +124,8 @@ Run the script:
 ./scriptname.sh
 
 ---
+---
+## Sample Outputs
+<img width="959" alt="output" src="https://github.com/user-attachments/assets/8c377bd5-df4e-420e-9687-b026f84c29a2" />
+
+---
