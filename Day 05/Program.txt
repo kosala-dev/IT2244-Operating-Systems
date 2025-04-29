@@ -1,0 +1,216 @@
+::create csv file
+[2021ict36@fedora ~]$ touch Day5.csv
+
+::open file to edit it
+[2021ict36@fedora ~]$ vi Day5.csv
+
+::view the data in csv file
+[2021ict36@fedora ~]$ more Day5.csv
+ID,Name,age,salary,Department
+101,Alice,0,70000,Data Science
+102,Bob,25,50000,Engineering
+103,Charlie,5,80000,Data Science
+104,David,40,90000,HR
+105,Eve,28,60000,Engineering
+106,Frank,38,75000,HR
+107,Grace,27,72000,Data Science
+108,Hank,32,68000,Engineering
+109,Ivy,29,62000,Data Science
+110,Jack,31,71000,HR
+
+::search "Engineering" in csv file
+[2021ict36@fedora ~]$ grep 'Engineering' Day5.csv
+102,Bob,25,50000,Engineering
+105,Eve,28,60000,Engineering
+108,Hank,32,68000,Engineering
+
+::display 5 rows in up to bottom in csv file
+[2021ict36@fedora ~]$ head -5 Day5.csv
+ID,Name,age,salary,Department
+101,Alice,0,70000,Data Science
+102,Bob,25,50000,Engineering
+103,Charlie,5,80000,Data Science
+104,David,40,90000,HR
+
+::display 3 rows in bottom to up in csv file
+[2021ict36@fedora ~]$ tail -3 Day5.csv
+108,Hank,32,68000,Engineering
+109,Ivy,29,62000,Data Science
+110,Jack,31,71000,HR
+
+::display
+[2021ict36@fedora ~]$ awk -F, '{print NF;exist}' Day5.csv
+4
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+
+::display number of columns
+[2021ict36@fedora ~]$ awk -F, '{print NF;exit}' Day5.csv
+5
+
+::display only age
+[2021ict36@fedora ~]$ awk -F, '{print $3}' Day5.csv
+age
+0
+25
+5
+40
+28
+38
+27
+32
+29
+31
+
+::display 7th row 
+[2021ict36@fedora ~]$ head -n7 Day5.csv | tail -n1
+106,Frank,38,75000,HR
+
+::display last 3 rows in csv file
+[2021ict36@fedora ~]$ tail -3 Day5.csv
+108,Hank,32,68000,Engineering
+109,Ivy,29,62000,Data Science
+110,Jack,31,71000,HR
+
+::display salary
+[2021ict36@fedora ~]$ cut -d, -f4 Day5.csv
+salary
+70000
+50000
+80000
+90000
+60000
+75000
+72000
+68000
+62000
+71000
+[2021ict36@fedora ~]$ awk -F, '{print $4}' Day5.csv
+salary
+70000
+50000
+80000
+90000
+60000
+75000
+72000
+68000
+62000
+71000
+
+::display 2nd and 3rd columns
+[2021ict36@fedora ~]$ awk -F, '{print $2 "," $3}' Day5.csv
+Name,age
+Alice,0
+Bob,25
+Charlie,5
+David,40
+Eve,28
+Frank,38
+Grace,27
+Hank,32
+Ivy,29
+Jack,31
+
+::display 2nd and 3rd columns and save a new file
+[2021ict36@fedora ~]$ awk -F, '{print $2 "," $3}' Day5.csv > Day52.csv
+[2021ict36@fedora ~]$ more Day52.csv
+Name,age
+Alice,0
+Bob,25
+Charlie,5
+David,40
+Eve,28
+Frank,38
+Grace,27
+Hank,32
+Ivy,29
+Jack,31
+
+::display sort the salary 
+[2021ict36@fedora ~]$ awk -F, '{print $4}' Day5.csv | sort
+50000
+60000
+62000
+68000
+70000
+71000
+72000
+75000
+80000
+90000
+salary
+
+::sort the all csv data and display it
+[2021ict36@fedora ~]$ sort -t',' -k4,4n Day5.csv
+ID,Name,age,salary,Department
+102,Bob,25,50000,Engineering
+105,Eve,28,60000,Engineering
+109,Ivy,29,62000,Data Science
+108,Hank,32,68000,Engineering
+101,Alice,0,70000,Data Science
+110,Jack,31,71000,HR
+107,Grace,27,72000,Data Science
+106,Frank,38,75000,HR
+103,Charlie,5,80000,Data Science
+104,David,40,90000,HR
+
+::display the order of the age (max to min)
+[2021ict36@fedora ~]$ sort -t',' -k3,3nr Day5.csv
+104,David,40,90000,HR
+106,Frank,38,75000,HR
+108,Hank,32,68000,Engineering
+110,Jack,31,71000,HR
+109,Ivy,29,62000,Data Science
+105,Eve,28,60000,Engineering
+107,Grace,27,72000,Data Science
+102,Bob,25,50000,Engineering
+103,Charlie,5,80000,Data Science
+101,Alice,0,70000,Data Science
+ID,Name,salary,Department
+
+::display the order of the salary(max to min)
+[2021ict36@fedora ~]$ sort -t',' -k4,4 -r Day5.csv
+ID,Name,salary,Department
+104,David,40,90000,HR
+103,Charlie,5,80000,Data Science
+106,Frank,38,75000,HR
+107,Grace,27,72000,Data Science
+110,Jack,31,71000,HR
+101,Alice,0,70000,Data Science
+108,Hank,32,68000,Engineering
+109,Ivy,29,62000,Data Science
+105,Eve,28,60000,Engineering
+102,Bob,25,50000,Engineering
+
+
+::display the 2nd and 4th columns sort by alperbaticaly order
+[2021ict36@fedora ~]$ sort -t',' -k2,2 | sort -t',' -k4,4 -r Day5.csv
+ID,Name,age,salary,Department
+104,David,40,90000,HR
+103,Charlie,5,80000,Data Science
+106,Frank,38,75000,HR
+107,Grace,27,72000,Data Science
+110,Jack,31,71000,HR
+101,Alice,0,70000,Data Science
+108,Hank,32,68000,Engineering
+109,Ivy,29,62000,Data Science
+105,Eve,28,60000,Engineering
+102,Bob,25,50000,Engineering
+
+
+
+
+
+
+
+
+
