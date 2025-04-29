@@ -1,5 +1,5 @@
 
-# Linux
+# Linux Day 1 -  Basics
 
 ---
 
