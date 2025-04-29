@@ -115,3 +115,8 @@ Make the script executable and run it:
 chmod +x script.sh
 ./script.sh
 ```
+---
+## Shell Outputs
+<img width="959" alt="output" src="https://github.com/user-attachments/assets/a94dd7b7-1dbd-46f6-93d7-d959f3974b8c" />
+
+---
