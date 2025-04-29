@@ -40,7 +40,6 @@ Hi 2021ICT36
 Summation: 12
 Average: 4
 ```
-
 ## Script Breakdown Program2
 Prompt for User Input:
 
@@ -76,3 +75,4 @@ Multiplication: 28
 Division:
 
 ```
+<img width="959" alt="Output1" src="https://github.com/user-attachments/assets/9be5dd28-8275-43a9-b732-05a69af146a9" />
