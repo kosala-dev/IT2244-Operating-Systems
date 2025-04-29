@@ -99,4 +99,7 @@ Make sure the script is executable and run it:
 chmod +x Exercise.sh
 ./Exercise.sh
 ```
-
+---
+## Shell outputs
+<img width="959" alt="output" src="https://github.com/user-attachments/assets/a1278168-e82d-43d0-9c3a-95549a21b3c5" />
+---
