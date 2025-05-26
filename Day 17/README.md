@@ -101,6 +101,7 @@ int main(){
     return 0;
 }
 ```
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/d57babd5-5a0f-4b7a-ac1e-376ca7935691" />
 
 ---
 
