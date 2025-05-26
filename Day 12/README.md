@@ -74,6 +74,7 @@ awk -F, 'NR==1 || $4 > 3.5' data.csv
 ```bash
 awk -F, 'NR>1 {sum+=$4; count++} END {if (count > 0) print "Avergae GPA:", sum/count}' data.csv
 ```
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/cfb05d10-4e8a-456e-8fab-56c1eaadc5a0" />
 
 ---
 
@@ -102,6 +103,7 @@ To run the script:
 chmod +x compare_strings.sh
 ./compare_strings.sh
 ```
+<img width="959" alt="2" src="https://github.com/user-attachments/assets/b5a3741f-3373-4cbf-b76a-4c2389fc7614" />
 
 ---
 
