@@ -23,6 +23,7 @@ int main(){
     return 0;
 }
 ```
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/7af0fc85-f19a-4064-9951-591325d85291" />
 
 ---
 
@@ -38,6 +39,7 @@ int main(){
     return 0;
 }
 ```
+<img width="959" alt="2" src="https://github.com/user-attachments/assets/0598f79d-27cb-4ead-bd77-cc5eac3f0ea9" />
 
 ---
 
@@ -61,6 +63,7 @@ int main(){
     return 0;
 }
 ```
+<img width="959" alt="3" src="https://github.com/user-attachments/assets/a3d08ff0-7c6f-4353-a2c1-4889f0845da0" />
 
 ---
 
@@ -95,6 +98,7 @@ int main(){
     return 0;
 }
 ```
+![4](https://github.com/user-attachments/assets/daa0963b-e6d6-4cf5-a1c4-fe229ca12831)
 
 ---
 
@@ -120,6 +124,7 @@ int main() {
     return 0;
 }
 ```
+<img width="959" alt="5" src="https://github.com/user-attachments/assets/b071df57-adfd-470e-a413-ce944f999336" />
 
 ---
 
@@ -146,6 +151,7 @@ int main(){
     return 0;
 }
 ```
+<img width="959" alt="6" src="https://github.com/user-attachments/assets/8bdd3d7b-9da5-4dad-a503-741e0b40bbfd" />
 
 ---
 
@@ -166,6 +172,7 @@ int main(){
     return 0;
 }
 ```
+<img width="959" alt="7" src="https://github.com/user-attachments/assets/b07ddc49-662a-4ffc-b41b-a9503c3a5270" />
 
 ---
 
@@ -191,6 +198,7 @@ int main() {
     return 0;
 }
 ```
+<img width="959" alt="8" src="https://github.com/user-attachments/assets/aa7500dc-ada5-4745-9b12-74b37879b628" />
 
 ---
 
@@ -229,6 +237,7 @@ int main() {
     return 0;
 }
 ```
+<img width="959" alt="9" src="https://github.com/user-attachments/assets/74e0741c-43f3-4133-85d0-b6853c2aae05" />
 
 ---
 
@@ -263,6 +272,7 @@ int main() {
     return 0;
 }
 ```
+<img width="959" alt="10" src="https://github.com/user-attachments/assets/fb8119a3-6bc9-43f3-bf53-6706b7bbaaf7" />
 
 ---
 
