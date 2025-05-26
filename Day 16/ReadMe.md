@@ -24,6 +24,7 @@ int main(){
     return 0;
 }
 ```
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/04dfb4b5-87af-467d-bf9c-1b135cf39384" />
 
 ---
 
@@ -62,6 +63,7 @@ int main(){
     return 0;
 }
 ```
+<img width="959" alt="2" src="https://github.com/user-attachments/assets/09988c75-39ea-446e-8924-32076171d106" />
 
 ---
 
