@@ -53,6 +53,7 @@ int main() {
   return 0;
 }
 ```
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/90b2be59-0ff8-46bb-95a8-598eb284a68c" />
 
 ---
 
@@ -62,6 +63,7 @@ int main() {
 int age = 23;
 printf("%d", age);
 ```
+<img width="959" alt="2" src="https://github.com/user-attachments/assets/2f0347ed-e23a-45f9-a799-94629edd3151" />
 
 ---
 
@@ -71,6 +73,7 @@ printf("%d", age);
 int first = 25;
 int second = first;
 ```
+<img width="959" alt="3" src="https://github.com/user-attachments/assets/94448867-8aa2-44d3-990a-e42db089db85" />
 
 ---
 
@@ -82,8 +85,7 @@ double age2 = 12.45;
 float age3 = 10.9f;
 char letter = 'c';
 ```
-
-Use of `sizeof()` to display memory usage.
+<img width="959" alt="4" src="https://github.com/user-attachments/assets/bb19a3a6-7e9e-44b9-81d2-ad980f0423b3" />
 
 ---
 
@@ -94,6 +96,7 @@ scanf("%d", &age);
 scanf("%lf", &number);
 scanf(" %c", &letter); 
 ```
+<img width="959" alt="5" src="https://github.com/user-attachments/assets/5bacfaad-9341-416b-8143-dd4cd534e461" />
 
 ---
 
@@ -102,6 +105,7 @@ scanf(" %c", &letter);
 ```c
 scanf("%lf %c", &number, &alpha);
 ```
+<img width="959" alt="6" src="https://github.com/user-attachments/assets/7f59508d-cafa-4cd8-a3d4-000622e15be2" />
 
 ---
 
@@ -112,6 +116,7 @@ scanf("%lf", &num1);
 scanf("%lf", &num2);
 printf("%2lf", num1 + num2); 
 ```
+<img width="959" alt="7" src="https://github.com/user-attachments/assets/5afcf6ef-4564-449c-a1ee-1ffce81d30ef" />
 
 ---
 
