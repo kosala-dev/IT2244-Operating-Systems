@@ -27,10 +27,10 @@ gcc send.c -o send
 gcc receive.c -o receive
 
 ```
-# Send 
+### Send 
 <img width="959" alt="send" src="https://github.com/user-attachments/assets/d3c6e5f8-56f9-4f55-8299-36c6b353831a" />
 
-# Receive
+### Receive
 <img width="959" alt="receive" src="https://github.com/user-attachments/assets/ae90eef5-7114-4720-af5b-32535c1246fd" />
 
 
