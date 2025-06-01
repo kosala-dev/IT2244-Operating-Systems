@@ -1,4 +1,3 @@
-3
 # System V Message Queue Communication in C
 
 This project demonstrates interprocess communication (IPC) using **System V message queues** in C. It contains two approaches:
@@ -76,6 +75,8 @@ Data send is: Hello from sender!
 $ ./receive
 Data received is: Hello from sender!
 ```
+![Codes](https://github.com/user-attachments/assets/93e01a5b-b952-438c-80fc-37a993ba4d58)
+
 
 ### Using `parent_child`
 ```
@@ -89,6 +90,7 @@ Received name: Kosala
 Received RegNo: 2021ICT36
 Received age: 23
 ```
+![Exercise](https://github.com/user-attachments/assets/6c9d422b-7537-4964-8ba5-faf6e93a4fae)
 
 ---
 
