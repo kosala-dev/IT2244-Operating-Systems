@@ -1,6 +1,6 @@
 # Shared Memory Communication in C
 
-This project demonstrates how to use **System V** and **POSIX** shared memory mechanisms for interprocess communication (IPC) in C on Linux. It includes three programs:
+This project demonstrates how to use **System V** shared memory mechanisms for interprocess communication (IPC) in C on Linux. It includes three programs:
 
 - `Day21Writer.c`: Writes user input to a shared memory segment.
 - `Day21Reader.c`: Reads data from the shared memory segment.
@@ -48,27 +48,22 @@ gcc Day21.c -o Day21
     ```bash
     ./Day21Writer
     ```
+    ![Sender](https://github.com/user-attachments/assets/bf48babc-d326-4a36-a0dd-6bd6acf36ded)
+
+    
 2. Run the reader in another terminal:
     ```bash
     ./Day21Reader
     ```
 
-### POSIX Shared Memory Example (mmap)
+    ![Reader](https://github.com/user-attachments/assets/22439cdc-ccf2-44cc-adc2-b3193d4f61f9)
 
-Run the `Day21` program:
-```bash
-./Day21
-```
 
----
 
-## Notes
-
-- Make sure the path used in `ftok()` (e.g., `/home/2021ict36/myprogfile`) exists, or change it to a valid file on your system.
-- Both writer and reader must use the same key (`65`) and path to share memory correctly.
+3. Run the `Day21` program:
+    ```bash
+    ./Day21
+    ```
+    ![Day21](https://github.com/user-attachments/assets/0a9cf341-7c77-4e98-a7f2-70fab433cd82)
 
 ---
-
-## Author
-
-- **2021ICT36** (Assumed system user ID based on the code comment)
