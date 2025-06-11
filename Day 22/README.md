@@ -24,6 +24,7 @@ Hello, world #1
 Hello, world #2
 Hello, world #3
 ```
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/e0917014-921f-401c-ae9d-c9bc78784302" />
 
 ---
 
@@ -55,6 +56,8 @@ Name: Alice
 Registration Number: 2023CS1001
 Age: 21
 ```
+<img width="959" alt="2" src="https://github.com/user-attachments/assets/63106454-a34e-40c6-8594-358a733ab0fe" />
+
 ---
 
 ## Requirements
