@@ -53,6 +53,7 @@ Enter base and height: 10 5
 
 Calculated Area: 25.00
 ```
+<img width="959" alt="Screenshot 2025-06-12 000505" src="https://github.com/user-attachments/assets/c34fd87d-586a-451c-ab73-b792e256459a" />
 
 ---
 
